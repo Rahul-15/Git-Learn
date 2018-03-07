@@ -13,3 +13,12 @@ for i in range(times):
 		password += random.choice(chars)
 
 	print('[.]',password,sep='')
+
+
+
+#for -------
+
+	password = password + '\n'
+	f.write(password)
+
+f.close()
